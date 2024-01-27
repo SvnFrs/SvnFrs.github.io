@@ -1,0 +1,137 @@
+* {
+  /* background-color: #13072e; */
+  color: #fff;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mai1 {
+  position: absolute;
+  height: 10rem;
+  object-fit: contain;
+  top: 52rem;
+  left: 0rem;
+}
+
+.mai2 {
+  position: absolute;
+  height: 10rem;
+  object-fit: contain;
+  top: 52rem;
+  left: 105rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.d-flex {
+  display: flex;
+}
+.bg-purple {
+  background-color: #13072e;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3vw 1rem 3vw;
+}
+.nav-logo > img {
+  height: 7rem;
+  object-fit: contain;
+  vertical-align: middle;
+}
+.play-zone-container {
+  height: 70vh;
+  padding: 0 3vw 0 3vw;
+}
+
+.play-zone {
+  border-radius: 25px;
+  /* background-color: #2f1864; */
+  background: linear-gradient(135deg, rgb(20, 8, 48) 5%, rgb(61, 32, 127) 97%);
+  box-shadow: 0 0 10px 5px #13072e;
+  height: 70vh;
+  overflow: hidden;
+  padding: 3vh 3vw 3vh 3vw;
+}
+
+.mascot-zone {
+  position: relative;
+}
+
+.mascot > img {
+  height: 80%;
+  object-fit: contain;
+  /* vertical-align: middle; */
+}
+.play-button {
+  position: absolute;
+  top: 42vh;
+  left: 6vw;
+}
+#spin {
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  height: 5rem;
+  width: 20rem;
+}
+
+#spin:hover {
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.play-button > button > h1 {
+  color: #13072e;
+  font-weight: bolder;
+}
+
+text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  font-weight: bold;
+}
+#chart {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 200px;
+  left: 1000;
+}
+#chart > svg {
+    width: 600px;
+    height: 600px;
+}
+#question {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 0;
+  left: 620px;
+}
+#question h1 {
+  color: beige;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 95%;
+  left: 10%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}

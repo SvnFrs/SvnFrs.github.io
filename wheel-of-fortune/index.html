@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Fcoder Wheel Of Fortune</title>
+  </head>
+  <body class="bg-purple">
+    <div class="navbar d-flex">
+      <div class="nav-logo">
+        <img src="img/logo.webp" alt="logo" />
+      </div>
+      <div class="nav-title">
+        <h1>CLB CONG NGHE THONG TIN</h1>
+      </div>
+      <div class="nav-link">
+        <h1><a href="index.php">Fanpage</a></h1>
+      </div>
+    </div>
+    <section class="play-zone-container">
+      <div class="play-zone d-flex">
+        <div class="mascot-zone">
+          <div class="mascot">
+            <img src="img/mascot.png" alt="mascot" />
+          </div>
+          <div class="play-button">
+            <button id="spin" onclick="spin()"><h1>QUAY DI CHO CHI</h1></button>
+          </div>
+        </div>
+        <div class="wheel-zone">
+          <!-- <input type="button" value="spin" style="float:left;" id='spin' /> -->
+          <!-- <canvas id="canvas" width="500" height="500"></canvas> -->
+          <div id="chart"></div>
+          <div id="question"><h1></h1></div>
+
+          
+
+             <!--
+    
+                - 1 bịch bánh tráng          2     2.5%
+                - 1 chai nước sâm            2     2.5%
+                - 1 trứng gà luộc            2     5%
+                - 1 trứng cút luộc           4     5%
+                - Sticker                    3     15%
+                - Chúc bạn may mắn lần sau 7     70%
+
+            -->
+        </div>
+      </div>
+    </section>
+    <img src="img/mai.png" alt="" class="mai1" />
+    <img src="img/mai.png" alt="" class="mai2" />
+  </body>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="js/scripts.js"></script>
+</html>
