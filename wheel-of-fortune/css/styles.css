@@ -13,7 +13,7 @@ body {
   position: absolute;
   height: 10rem;
   object-fit: contain;
-  top: 52rem;
+  bottom: 0;
   left: 0rem;
 }
 
@@ -21,8 +21,9 @@ body {
   position: absolute;
   height: 10rem;
   object-fit: contain;
-  top: 52rem;
-  left: 105rem;
+  bottom: 0;
+  /* left: 105rem; */
+  right: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -64,8 +65,10 @@ body {
 }
 
 .mascot > img {
+  /* position: absolute; */
   height: 80%;
   object-fit: contain;
+  /* left: 1vw; */
   /* vertical-align: middle; */
 }
 .play-button {
@@ -108,8 +111,9 @@ text {
   position: absolute;
   width: 600px;
   height: 600px;
-  top: 200px;
-  left: 1000;
+  top: 25%;
+  right: 10vw;
+  /* left: 50vw; */
 }
 #chart > svg {
     width: 600px;
@@ -134,4 +138,8 @@ text {
   left: 10%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
+}
+
+@media (30em <= width <= 90rem) {
+  
 }
