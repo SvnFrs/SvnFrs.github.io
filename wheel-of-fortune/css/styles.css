@@ -121,12 +121,16 @@ text {
 }
 #question {
   position: absolute;
-  width: 400px;
-  height: 500px;
-  top: 0;
+  width: 28vw;
+  height: 40vh;
+  top: 28vh;
   left: 620px;
+  background: linear-gradient(135deg, rgb(20, 8, 48) 5%, rgb(61, 32, 127) 97%);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #question h1 {
+  text-align: center;
   color: beige;
   font-size: 50px;
   font-weight: bold;
@@ -134,8 +138,8 @@ text {
   position: absolute;
   padding: 0;
   margin: 0;
-  top: 95%;
-  left: 10%;
+  top: 21.5vh;
+  left: 5%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
