@@ -53,7 +53,7 @@ var data = [
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
@@ -66,37 +66,37 @@ var data = [
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Trung Cut Luoc",
     value: 1,
-    probability: 0.0125,
+    probability: 0.02,
     question: "Bạn Đã Trúng Một Phân Trứng Cút Luộc :<",
   },
   {
     label: "Sticker",
     value: 1,
-    probability: 0.05,
+    probability: 0.08,
     question: "Bạn Đã Trúng Một Phần Sticker :<",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
@@ -108,19 +108,19 @@ var data = [
   {
     label: "Trung Cut Luoc",
     value: 1,
-    probability: 0.0125,
+    probability: 0.02,
     question: "Bạn Đã Trúng Một Phân Trứng Cút Luộc :<",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Trung Cut Luoc",
     value: 1,
-    probability: 0.0125,
+    probability: 0.02,
     question: "Bạn Đã Trúng Một Phân Trứng Cút Luộc :<",
   },
   {
@@ -133,7 +133,7 @@ var data = [
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
@@ -145,32 +145,32 @@ var data = [
   {
     label: "Sticker",
     value: 1,
-    probability: 0.05,
+    probability: 0.08,
     question: "Bạn Đã Trúng Một Phần Sticker :<",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Chuc ban may man lan sau",
     value: 1,
-    probability: 0.1,
+    probability: 0.07,
     question: "Chúc Bạn May Mắn Lần Sau Nhe :3",
   },
   {
     label: "Trung Cut Luoc",
     value: 1,
-    probability: 0.0125,
+    probability: 0.02,
     question: "Bạn Đã Trúng Một Phân Trứng Cút Luộc :<",
   },
 
   {
     label: "Sticker",
     value: 1,
-    probability: 0.05,
+    probability: 0.08,
     question: "Bạn Đã Trúng Một Phần Sticker :<.",
   },
 ];
@@ -274,7 +274,7 @@ function spin(d) {
   // rotation = picked * ps + 90 - Math.round(ps / 2);
   // rotation = 360 - (picked * ps + Math.round(ps / 2));
   rotation = 360 - (picked * 360 / data.length) + 80;
-  rotation += 360 * 5;
+  rotation += 360 * 10;
 
   vis
     .transition()
